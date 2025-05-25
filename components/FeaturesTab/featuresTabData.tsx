@@ -12,7 +12,7 @@ const featuresTabData: FeatureTab[] = [
 이해하는 순간, 마음의 실루엣이 또렷해져요.`,
     desc2: `감정을 ‘느끼는 것’에서
 ‘읽는 것’으로 바꾸는 첫 걸음.`,
-    image: "/images/features/features-light-01.png",
+    image: "/images/features/img-1.png",
     imageDark: "/images/features/features-dark-01.svg",
   },
   {
@@ -28,7 +28,7 @@ const featuresTabData: FeatureTab[] = [
 이제는 내가 반응을 선택할 수 있어요.`,
     desc2: `감정의 자동반사를 멈추고,
 나답게 반응하는 연습.`,
-    image: "/images/features/features-light-01.png",
+    image: "/images/features/img-2.png",
     imageDark: "/images/features/features-dark-01.svg",
   },
   {
@@ -45,7 +45,7 @@ const featuresTabData: FeatureTab[] = [
 스스로를 다시 이해하고 받아들이게 해줘요.`,
     desc2: `감정은 약점이 아니라,
 내가 살아온 증거이자 힘이었어요.`,
-    image: "/images/features/features-light-01.png",
+    image: "/images/features/img-3.png",
     imageDark: "/images/features/features-dark-01.svg",
   },
 ];
