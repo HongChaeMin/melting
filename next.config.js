@@ -2,6 +2,7 @@
 
 const nextConfig = {
   reactStrictMode: true,
+  staticPageGenerationTimeout: 120,
   images: {
     domains: ["localhost"],
     remotePatterns: [

@@ -1,7 +1,14 @@
-FROM node:22-alpine
-WORKDIR /usr/src/app
-COPY package.json ./
-RUN npm i
+FROM node:20-bullseye
+
+WORKDIR /app
+
+COPY package*.json ./
+RUN npm install
+RUN npm rebuild --arch=x64 --platform=linux --libc=musl sharp
+
 COPY . .
+
 RUN npm run build
-CMD [ "npm", "run", "start" ]
+
+EXPOSE 3000
+CMD ["npm", "run", "start"]
